@@ -1,0 +1,60 @@
+/* * {
+    border: 1px solid red;
+} */
+
+h1 {
+    color: white;
+    max-width: 800px;
+    margin-inline: 20px;
+    align-self: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    flex-wrap: wrap;
+    background-color: black;
+    max-width: fit-content;
+}
+
+.mainLayout {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    margin: 20px;
+    max-width: 800px;
+    border: 10px solid rgb(0, 0, 150);
+}
+
+li {
+    padding-right: 20px;
+}
+
+h2 {
+    align-self: center;
+}
+
+.confirmation-box {
+    position: absolute;
+    display: none;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.confirmation-box div {
+    display: flex;
+    align-self: center;
+}
+
+.confirmation-box button {
+    padding: 5px;
+    margin: 0 20px;
+}
